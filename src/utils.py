@@ -22,10 +22,6 @@ def plot_numerical_data(dataframe):
     cols = 3
     rows = 3  # fijo a 3 filas: 1 o 2 filas para histogramas y 1 o 2 para boxplots según cantidad
 
-    # Calculamos cuántas columnas y filas necesitamos para histogramas y boxplots
-    # Distribuimos histogramas en la fila 0 y 1 si hay más de 3 variables
-    # Boxplots en la fila 2 (y fila 3 si necesario, pero aquí fijo 3 filas, así que ajustamos)
-
     # Para simplificar, pondremos histogramas en la fila 0 y boxplots en la fila 1 y 2 si es necesario
 
     # Número de columnas para histogramas y boxplots
